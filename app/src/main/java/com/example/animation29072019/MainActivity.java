@@ -16,14 +16,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         imageView = findViewById(R.id.imageviewAlpha);
+        //1 - alpha cho chuyen man hinh
         final Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.anim_image_alpha);
 //        imageView.startAnimation(animation);
-        imageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                view.startAnimation(animation);
-
-            }
-        });
+//        imageView.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                view.startAnimation(animation);
+//
+//            }
+//        });
     }
 }
