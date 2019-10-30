@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFEB3B"
+    android:background="#03A9F4"
     tools:context=".MainActivity">
 <!--    android:layout_centerInParent="true"-->
     <ImageView
@@ -18,10 +18,18 @@
         android:id="@+id/imageviewScale"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
         android:src="@drawable/ic_heart"
-        android:layout_marginLeft="200dp"/>
-
+        android:layout_marginLeft="50dp"/>
+    <ImageView
+        android:id="@+id/imageviewRotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_bell"
+        android:layout_marginLeft="50dp"/>
 </RelativeLayout>
